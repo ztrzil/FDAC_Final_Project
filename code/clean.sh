@@ -14,9 +14,7 @@ fi
 echo 'CID,Donation,Party' > $output.csv
 while IFS="" read -r line
 do
-  if [ $DEBUG -eq 1 ]; then
-    echo $line '('${line:0:9}')'
-  fi
+#  echo $line '('${line:0:9}')'
   ID=${line:0:9}
 #  var=$(grep ${line:0:9} CRP_IDs.csv | awk -F ',' '{print $5}' | head -1)
   rv=$(grep ${line:0:9} /data/opensecrets/CRP_IDs.csv | head -1) 
