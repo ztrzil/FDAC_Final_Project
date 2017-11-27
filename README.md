@@ -7,7 +7,7 @@ Open Secrets Analysis
 2015-2016 Voting
 
 
-Data Flow:
+# Data Flow:
 1. Open Secrets Donation Data => Donations Data CSV  
     Donations Data CSV:  
         + CandidateID: ID given to politican at time of candidacy  
@@ -32,7 +32,13 @@ Data Flow:
     Politician Cluster CSV
         + NameID: Name of politician  
         + ClusterID: ID representing cluster politician belongs too  
-    _Assigned: Denizhan_   
+    _Assigned: William_   
 5. Politician Cluster CSV + Voting Record CSV => Statistical Report  
     _Assigned: William_   
 
+
+## Other Stuff:  
++ Final Report  
+    _Assigned: Denizhan_  
++ Presenting  
+    _Assigned: Everyone_  
